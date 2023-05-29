@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="hedaer">
+            <div class="header__item">
+                <img src="img/hedaer.img/phone.png" alt="not found">
+                <p class="phone">8(800) 222-79-92</p>
+            </div>
+            <div class="header__item">
+                <p>Контакты</p>
+                <p id="encyclopedia">Энциклопедия</p>
+                <p>Услуги</p>
+            </div>
+            <div class="model-window">
+                <h1>Приносим извинения</h1>
+                <p>В данный момент функция 
+                    “Энциклопедия” не работает. Просим извинения за доставленные неудобства.</p>
+                    <p class="close">Закрыть</p>
+            </div>
+        </div>
+        <div class="mobile-headaer">
+            <div class="mobile-but">
+                <span id="span-1"></span>
+                <span id="span-2"></span>
+                <span id="span-3"></span>
+            </div>
+            <div class="mobile-text">
+                <div class="contact-container">
+                    <p id="contact">Контакты <span class="treagle"></span></p>
+                </div>
+                <p class="contact">8(800) 222-79-92</p>
+                <p id="encyclopediaMobile">Энциклопедия</p>
+                <p>Услуги</p>
+            </div>
+            <div class="model-window-mobile">
+                <h1>Приносим извинения</h1>
+                <p>В данный момент функция 
+                    “Энциклопедия” не работает. Просим извинения за доставленные неудобства.</p>
+                    <p class="close-mobile">Закрыть</p>
+            </div>
+        </div>
+        <div class="first-block">
+            <img src="img/simple.img/samotsvetru.png" alt="not found">
+        </div>
+        <div class="tabs-container">
+            <div class="tabs__nav">
+                <div class="tabs__nav-item" data-tab-name="tab-1">Акции</div>
+                <div class="tabs__nav-item" data-tab-name="tab-2">Новости</div>
+                <div class="tabs__nav-item" data-tab-name="tab-3">Популярное</div>
+                <div class="tabs__nav-item novelties" data-tab-name="tab-4">Новинки</div>
+            </div>
+            <div class="tabs__content">
+                <div class="tab is-active tab-1">
+                    <div class="tab-grid">
+                        <img class="img-1" src="img/simple.img/tab-1-1.png" alt="not found">
+                        <img class="img-2" src="img/simple.img/tab-1-2.png" alt="not found">
+                        <img class="img-3" src="img/simple.img/tab-1-3.png" alt="not found">
+                    </div>
+                </div>
+                <div class="tab tab-2">
+                    <div class="news-block">
+                        <h1>Какая-то Новость</h1> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel veniam quasi eum eligendi enim, dignissimos esse! Ut ipsam, veniam saepe laboriosam, quasi provident ab dolor ea, fuga sunt sit.</p>
+                    </div>
+                    <div class="news-block">
+                        <h1>Какая-то Новость</h1> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel veniam quasi eum eligendi enim, dignissimos esse! Ut ipsam, veniam saepe laboriosam, quasi provident ab dolor ea, fuga sunt sit.</p>
+                    </div>
+                    <div class="news-block">
+                        <h1>Какая-то Новость</h1> 
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus vel veniam quasi eum eligendi enim, dignissimos esse! Ut ipsam, veniam saepe laboriosam, quasi provident ab dolor ea, fuga sunt sit.</p>
+                    </div>
+                </div>
+                <div class="tab tab-3">
+                    <h1>Популярный товар</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est tempora aperiam et corrupti laudantium aliquam. Quod tempore molestiae beatae quibusdam, totam error nobis quidem exercitationem, delectus incidunt corrupti saepe ullam.</p>
+                </div>
+                <div class="tab tab-4">
+                    <h1>Новинки</h1>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est tempora aperiam et corrupti laudantium aliquam. Quod tempore molestiae beatae quibusdam, totam error nobis quidem exercitationem, delectus incidunt corrupti saepe ullam.</p>
+                </div>
+            </div>
+			<div class="slider">
+				<div class="slider__container">
+                    <div class="slide">
+                        <div class="description">
+                            <h1 class="slider-h1">Бижутерия</h1>
+                        <ul class="slider-text">
+                            <li>Серьги</li>
+                            <li>Браслеты</li>
+                            <li>Что то там</li>
+                        </ul>
+                        </div>
+                        <img src="img/slider.img/slider-1.jpg" alt="" class="slider__image fade" />
+                    </div>
+				</div>
+				<div class="slider__controls">
+					<div class="slider__dots">
+						<span class="slider__dot activ" onclick="changeIndex(0)"></span>
+						<span class="slider__dot" onclick="changeIndex(1)"></span>
+						<span class="slider__dot" onclick="changeIndex(2)"></span>
+					</div>
+					<button class="slider__nav slider__nav-left">&lt;</button>
+					<button class="slider__nav slider__nav-right">&gt;</button>
+				</div>
+			</div>
+            <div class="filter-nav">
+                <div class="filters__buttom">
+                    <img class="filter-img" src="img/simple.img/filter-buttom.png" alt="">
+                </div>
+                <div class="filters__stars">
+                    <div class="filter">
+                        1
+                        <img class="filter__nav" src="img/simple.img/star.png" data-tab-id="Tab-1" alt="">
+                    </div>
+                    <div class="filter">
+                        2
+                        <img class="filter__nav" src="img/simple.img/star.png" data-tab-id="Tab-2" alt="">
+                    </div>
+                    <div class="filter">
+                        3
+                        <img class="filter__nav" src="img/simple.img/star.png" data-tab-id="Tab-3" alt="">
+                    </div>
+                    <div class="filter">
+                        4
+                        <img class="filter__nav" src="img/simple.img/star.png" data-tab-id="Tab-4" alt="">
+                    </div>
+                    <div class="filter">
+                        5
+                        <img class="filter__nav" src="img/simple.img/star.png" data-tab-id="Tab-5" alt="">
+                    </div>
+                    <div class="filter">
+                        Все
+                        <img class="filter__nav" src="img/simple.img/star-active.png" data-tab-id="review-tab" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="reviews-container">
+            <div class="review-tab Tab-4 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava1.png" alt="">
+                    <p>Ирина</p>
+                    <p>Шамильевна</p>
+                </div>
+                <div class="text-container">
+                  <p>Как принято считать, многие известные личности, инициированные исключительно синтетически, указаны как претенденты на роль ключевых факторов. А также ключевые особенности структуры проекта формируют глобальную экономическую сеть и при этом — преданы социально-демократической анафеме. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-5 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava2.png" alt="">
+                    <p>Юля</p>
+                    <p>Самуйлова</p>
+                </div>
+                <div class="text-container" style="width: 80%;">
+                  <p>Мы вынуждены отталкиваться от того, что сложившаяся структура организации представляет собой интересный эксперимент проверки приоретизации разума над эмоциями. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-4 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava3.png" alt="">
+                    <p>Дмитрий</p>
+                    <p>Вайтенко</p>
+                </div>
+                <div class="text-container">
+                  <p>Как принято считать, независимые государства неоднозначны и будут рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Задача организации, в особенности же перспективное планирование не оставляет шанса для анализа существующих паттернов поведения. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-4 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava1.png" alt="">
+                    <p>Ирина</p>
+                    <p>Шамильевна</p>
+                </div>
+                <div class="text-container">
+                  <p>Как принято считать, многие известные личности, инициированные исключительно синтетически, указаны как претенденты на роль ключевых факторов. А также ключевые особенности структуры проекта формируют глобальную экономическую сеть и при этом — преданы социально-демократической анафеме. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-5 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava2.png" alt="">
+                    <p>Юля</p>
+                    <p>Самуйлова</p>
+                </div>
+                <div class="text-container" style="width: 80%;">
+                  <p>Мы вынуждены отталкиваться от того, что сложившаяся структура организации представляет собой интересный эксперимент проверки приоретизации разума над эмоциями. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-4 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava3.png" alt="">
+                    <p>Дмитрий</p>
+                    <p>Вайтенко</p>
+                </div>
+                <div class="text-container">
+                  <p>Как принято считать, независимые государства неоднозначны и будут рассмотрены исключительно в разрезе маркетинговых и финансовых предпосылок. Задача организации, в особенности же перспективное планирование не оставляет шанса для анализа существующих паттернов поведения. 
+                    <span>читать больше...</span></p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-3 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava1.png" alt="">
+                    <p>Ирина</p>
+                    <p>Шамильевна</p>
+                </div>
+                <div class="text-container">
+                  <p>Я не придумал, но 3
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-2 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava2.png" alt="">
+                    <p>Юля</p>
+                    <p>Самуйлова</p>
+                </div>
+                <div class="text-container" style="width: 80%;">
+                  <p>Меня обманули на 38 рублей</p>  
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="review-tab Tab-1 active">
+                <div class="ava-container">
+                    <img src="img/simple.img/ava3.png" alt="">
+                    <p>Вайтенко</p>
+                    <p>Дмитрий</p>
+                </div>
+                <div class="text-container">
+                  <p>Говно </p>
+                    <div class="stars">
+                        <img src="img/simple.img/star-active.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                        <img src="img/simple.img/star.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="show__more">Показать всё</div>
+        <div class="about">
+            <div class="about__item">
+                <img src="img/simple.img/about-1.png" alt="">
+                <p>Более 10 000 изделийиз натуральных камней</p>
+            </div>
+            <div class="about__item">
+                <img src="img/simple.img/about-2.png" alt="">
+                <p>Работаем с камнем с 2005 года</p>
+            </div>
+            <div class="about__item">
+                <img src="img/simple.img/about-3.png" alt="">
+                <p>Доставка 
+                    по всей России</p>
+            </div>
+        </div>
+        <div class="about">
+            <div class="about__item">
+                <img src="img/simple.img/about-4.png" alt="">
+                <p>Сертификаты подлинности камней от гем-центра МГУ</p>
+            </div>
+            <div class="about__item">
+                <img src="img/simple.img/about-5.png" alt="">
+                <p>Подбор камняпо знаку зодиакаУ</p>
+            </div>
+        </div>
+        <div class="center">
+            <h1>Подпишись на лимитированные акции!</h1>
+        </div>
+        <div class="action">
+            <div class="subscribe-container">
+                <input type="gmail" placeholder="example@gmail.com">
+                <button id="yes">Подвердить</button>
+            </div>
+            <ul>
+                <li>Личный кабинет с подбором персональной коллекци для вас</li>
+                <li>Новости о новых товарарах</li>
+                <li>Акции и скидки специально для вас</li>
+                <li>Персональные предложения от партнеров</li>
+            </ul>
+        </div>
+        <div class="footer">
+            <div class="footer__item">
+                <p class="footer-text">Info@samotsvet.ru</p>
+            </div>
+            <div class="footer__item">
+                <p class="footer-text">о нас</p>
+                <p class="footer-text">помощь</p>
+                <p class="footer-text">контакты</p>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
